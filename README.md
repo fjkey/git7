@@ -14,5 +14,21 @@ State2 --> [*]
 @enduml
 ```
 
+
+```puml
+@startuml
+Shape <|-- Rectangle
+Shape <|-- Circle
+Rectangle <|-- RectangleA
+Rectangle <|-- RectangleB
+Circle <|-- CircleA
+Circle <|-- CircleB
+
+@enduml
+
+```
+
+
+
 ### 测试markdown功能
 测试== markdown ==功能
